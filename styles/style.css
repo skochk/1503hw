@@ -1,0 +1,147 @@
+
+html{
+	height: 100%;
+}
+body{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	margin: 0;
+	background-color: #b6dbff;
+}
+
+header{
+	background-color: #6060ff;
+	display: flex;
+	height: 80px;
+	flex-grow: 1;
+	justify-content: space-between;
+}
+
+
+.logo{
+	display: flex;
+	
+	background-color: #2121b3;
+	 align-items: center;
+  	justify-content: center;
+	color: white;
+	vertical-align: middle;
+	min-width: 150px;
+	font-size: 20px;
+}
+
+.info{
+	background-color: #9494ff;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-width: 400px;
+}
+
+.content{
+	display: flex;
+	flex-direction: row;
+	height: 750px;
+
+}
+
+.news{
+
+	min-width: 300px;
+	flex-grow: 1;
+	flex-direction: column;
+	text-align: center;
+	color: white;
+	background-color: #7f7fd6;
+}
+
+.main_content{
+	flex-grow: 4;
+
+}
+
+footer{
+	 position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+	height: 40px;
+	width: 100%;
+	text-transform: uppercase;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 0;
+	background-color: #6060ff;
+}
+
+.news_header{
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+	font-weight: bold;
+	font-size: 1.5em;
+	align-items: center;
+	height: 40px;
+}
+
+.news_block{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	border-right: 4px #4949e0 solid;
+	border-top: 4px #4949e0 solid;
+
+	margin: 0;
+	padding: 0;
+}
+
+.content_block{
+	background-color: #b7b7e4;
+	height: 250px;
+}
+
+.first{
+ background-color: #b8deff;
+}
+
+.second{
+ 	background-color: #a5d5ff;
+}
+
+.third{
+	background-color: #96ceff;
+}
+
+.time{
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+	height: 40px;
+	width: 70px;
+	background-color: #5bb2ff;
+}
+
+.head{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	margin-bottom: 10px;
+z
+}
+
+h1{
+	margin: 0;
+	padding: 0;
+}
+
+.new1{
+	background-color: #6868ff;
+}
+.new2{
+	background-color: #3f3fff;
+}
+.new3{
+	background-color: #0000ff;
+	border-bottom: 4px #4949e0 solid;
+}
